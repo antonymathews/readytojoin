@@ -3,7 +3,6 @@ import logo from '../logo.svg'
 
 import Header from './Header'
 import AppContent from './AppContent';
-import FileUpload from './FileUpload';
 
 import { GoogleLogin } from '@react-oauth/google';
 import { useGoogleLogin } from '@react-oauth/google';

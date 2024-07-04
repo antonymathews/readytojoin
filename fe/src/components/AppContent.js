@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import WelcomeContent from './WelcomeContent';
 import Form from './Form';
 import SearchJobs from './SearchJobs';
 import { request } from '../axios_helper';
@@ -76,7 +75,6 @@ function AppContent(props)  {
     
     return(
         <div>
-            <WelcomeContent/>
             <SearchJobs/>
             {email?(
                 <Form name={name} skill={skill} availability={availability} email={props.email} dob={dob} 
